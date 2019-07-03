@@ -27,7 +27,8 @@
     "start:mobile": "cd src/mobile && yarn start",
     "start:styleguide": "cd src/desktop && yarn run styleguide",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.{js,json,css}": [
@@ -54,7 +55,7 @@
     "shared-modules": "./src/shared/"
   },
   "dependencies": {
-    "snyk": "^1.96.0"
+    "snyk": "^1.189.0"
   },
   "snyk": true
 }
