@@ -106,7 +106,7 @@
     "redux-thunk": "^2.2.0",
     "rn-fetch-blob": "^0.10.13",
     "shared-modules": "../shared/",
-    "snyk": "^1.96.0",
+    "snyk": "^1.214.0",
     "stream": "0.0.2",
     "stream-browserify": "^1.0.0",
     "string_decoder": "^0.10.31",
