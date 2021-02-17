@@ -9,6 +9,13 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.12.0":
+  version "7.12.13"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.13.tgz#0a21452352b02542db0ffb928ac2d3ca7cb6d66d"
+  integrity sha512-8+3UMPBrjFa/6TtKi/7sehPKqfAm4g6K+YQjyyFOLUTxzOngcRZTlAVY8sc2CORJYqdHQY8gRPHmn+qo15rCBw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@sinonjs/formatio@^2.0.0":
   version "2.0.0"
   resolved "http://registry.npmjs.org/@sinonjs/formatio/-/formatio-2.0.0.tgz#84db7e9eb5531df18a8c5e0bfb6e449e55e654b2"
@@ -975,10 +982,12 @@ html-parse-stringify2@2.0.1:
   dependencies:
     void-elements "^2.0.1"
 
-i18next@^11.9.0:
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-11.9.0.tgz#c30c0a5e0a857124923a8dd1ce8f1df603e30c70"
-  integrity sha512-NDuIoELzyJ+29kc29j9aKgzjZht4kEKh3PPdz0qCEC9ZUpgRVaWUdkMRES/NVTcpe1ei4MMwY8DNWBWCIUlAng==
+i18next@^19.8.5:
+  version "19.8.9"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-19.8.9.tgz#ee3175cf1edcd142b45eca49d23079edaa1e6fcc"
+  integrity sha512-cyLeJv7tg3MP+bRNbNe9CleiBGfkCeEKr0DKY2MBPYE1vIQGu4mQ3qlTCmW1tcZi9fMqSI4G2mGBO+JwoIQSbQ==
+  dependencies:
+    "@babel/runtime" "^7.12.0"
 
 iconv-lite@~0.4.13:
   version "0.4.19"
@@ -1415,6 +1424,11 @@ regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
   integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
+  integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
