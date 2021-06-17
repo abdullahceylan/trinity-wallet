@@ -136,7 +136,7 @@
     "electron-updater": "^3.1.2",
     "entangled-node": "rihardsgravis/entangled-node",
     "iota.lib.js": "^0.5.1",
-    "kdbxweb": "^1.2.4",
+    "kdbxweb": "^2.1.0",
     "keytar": "^4.3.0",
     "machine-uuid-sync": "https://github.com/rajivshah3/machine-uuid-sync",
     "perfect-scrollbar": "^1.4.0",
