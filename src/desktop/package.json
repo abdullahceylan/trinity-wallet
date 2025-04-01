@@ -137,7 +137,7 @@
     "entangled-node": "rihardsgravis/entangled-node",
     "iota.lib.js": "^0.5.1",
     "kdbxweb": "^1.2.4",
-    "keytar": "^4.3.0",
+    "keytar": "^4.3.2",
     "machine-uuid-sync": "https://github.com/rajivshah3/machine-uuid-sync",
     "perfect-scrollbar": "^1.4.0",
     "qr.js": "^0.0.0",
